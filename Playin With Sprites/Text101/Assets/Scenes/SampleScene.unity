@@ -421,10 +421,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Placeholder  Story Text  Placeholder  Story Text Placeholder  Story Text
-    Placeholder  Story Text Placeholder  Story Text Placeholder  Story Text Placeholder 
-    Story Text Placeholder  Story Text Placeholder  Story Text Placeholder  Story
-    Text Placeholder  Story Text '
+  m_Text: Testing some things. Dare to fail.
 --- !u!222 &947875304
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -717,6 +714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae65ca1c2079b8b42aadea9d51ed5ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textComponent: {fileID: 947875303}
 --- !u!4 &1935983662
 Transform:
   m_ObjectHideFlags: 0
