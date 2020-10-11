@@ -1,5 +1,5 @@
 public class HelloWorld {
-	public static voic main(String[] args){
-	System.out.Println("hello world!");
+	public static void main(String[] args){
+		System.out.println("hello world, little change here!");
 	}
 }
