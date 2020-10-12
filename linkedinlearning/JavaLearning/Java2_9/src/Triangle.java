@@ -1,5 +1,8 @@
-public class Triangle {
-        double base;
+public class Triangle {  //Triangle is a class
+
+        static int numOfSides = 3;  // static variable
+
+        double base;       // non static instance variables
         double height;
         double sideLenOne;
         double sideLenTwo;
@@ -15,7 +18,7 @@ public class Triangle {
             this.sideLenThree = sideLenThree;
         }
 
-        public double findArea(){
+        public double findArea(){    //Custom-built instance method
             return (this.base * this.height) / 2;
         }
 }
