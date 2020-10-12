@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Chalenge1 {
     public static void main(String args[]) {
         String question = "What the planet of the solar system ?";
-        String choiceOne = "Earth";
-        String choiceTwo = "Jupiter";
-        String choiceThree = "Venus";
+        String choiceOne = "earth";
+        String choiceTwo = "jupiter";
+        String choiceThree = "saturn";
 
         String correctAnswer = choiceTwo;
 
@@ -14,7 +14,11 @@ public class Chalenge1 {
 
         Scanner scanner = new Scanner(System.in);
         String input = scanner.next();
-        if (correctAnswer.equals(input)) {
+
+        System.out.println(input);
+        System.out.println(correctAnswer);
+
+        if (correctAnswer.equals(input.toLowerCase())) {
             System.out.println("Congrats! Correct Answer");
         }else{
             System.out.println("You are incorret. Correct answer is " + correctAnswer);
