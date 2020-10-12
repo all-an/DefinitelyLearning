@@ -5,7 +5,7 @@ public class Chalenge1 {
         String question = "What the planet of the solar system ?";
         String choiceOne = "Earth";
         String choiceTwo = "Jupiter";
-        String choiceThree = "Mars";
+        String choiceThree = "Venus";
 
         String correctAnswer = choiceTwo;
 
